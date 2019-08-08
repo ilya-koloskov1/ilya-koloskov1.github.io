@@ -1,0 +1,354 @@
+@font-face{
+	font-family: 'Comfortaa', cursive;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+body{
+	font-family: 'Comfortaa', cursive;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	min-width: 1024px;
+}
+
+button{ 
+	text-align: none;
+	color: black;
+	cursor: pointer;
+}
+
+img{
+	display:block;
+}
+
+ a{
+ 	text-decoration: none;
+ 	margin: 0;
+}
+
+a:link, a:visited {
+    color: black;
+}
+
+li{
+	list-style-type:none;
+}
+
+
+.head{
+	background-image: url(../images/bg1.png);
+	background-size: cover;
+}
+.head-frame{
+	width: 100%;
+}
+
+.container{
+	display: flex;
+	width: 1024px;
+	margin: 0 auto;
+	padding-bottom: 60px;
+}
+
+.header{
+	position: relative;
+	bottom: 25px;
+	width: 1024px;
+	margin: 0 auto;
+}
+
+.logo{
+	width: 218px;
+	height: 81px;
+	margin-top:15px;
+}
+.img-menu{
+	width: 100%;
+}
+.menu ul{
+	width: 590px;
+	height: 36px;
+	position: absolute;
+	bottom: 80px;
+	right: 120px;
+	display: flex;
+	justify-content: space-around;
+	font-size: 25px;
+}
+
+.news{
+	background-color: #ff91a9;
+}
+
+.news .layer{
+	width: 48.5%;
+	height: 301px;
+}
+
+.layer{
+	display: block;
+	border-radius: 10px;
+	box-shadow:-2px 5px 0px 1px rgba(50, 50, 50, 0.3);	
+	box-sizing: border-box;
+ 	background-size: cover;
+    background-repeat: space;
+ 	background-origin: border-box;
+}
+
+.layer:hover{
+	border:3px solid black;
+}
+
+.box{
+	height: 100%;
+	width: 100%;
+	border-radius: 10px;
+	display: block;
+	opacity: 0;
+	cursor: pointer;
+}
+
+.box:hover{
+	background-color: rgba(255, 255, 255, 0.8);
+	opacity: 1;
+ 	z-index: 1;
+ 	transition-duration:.2s;
+}
+
+.news .layer:nth-child(1){
+	background-image: url('../images/left.png');
+}
+
+.news .layer:nth-child(2){
+	background-image: url('../images/girl.png');
+    background-repeat: space;
+}
+
+.font-news{
+	padding: 31px 0;
+}
+
+article{
+	display: flex;
+	justify-content: space-between;
+}
+
+.news .container{
+	display: block;
+}
+
+.news .headline{
+	padding: 40px 0 18px 35px;
+}
+.news span{
+	margin: 0 35px;
+	display: block;
+	width: 394px;
+	height: 74px;
+	color: #000000;
+	font-size: 17px;
+	font-weight: 500;
+}
+
+#headline-button{
+	margin: 15px 70px 15px 0;
+	width: 143px;
+	float: right;
+	z-index: 2;
+}
+
+.new-button{
+	margin-left: 86%;
+	padding:0 20px 10px;
+	width: 10%;
+	height: 10%;
+	background-color: #ff91a9;
+	text-align: center;
+	border-radius: 0 0 34px 34px;
+	}
+
+.new-button button{
+	background-image: url(../images/everything.png);
+	background-repeat: no-repeat;
+	background-size: 40px auto;
+	background-position: center;
+	width: 90px;
+	height: 40px;
+	border: 2px solid black;
+	border-radius: 10px;
+	border-bottom:4px solid black;
+	background-color: #fff;
+	box-shadow:0px 5px 3px -3px rgba(50, 50, 50, 0.3);
+}
+
+.popular{
+	background-color: #fff191;
+}
+
+.popular-headline {
+	padding: 31px 0;
+}
+.popular .container{
+	display: block;
+}
+.popular .layer{
+	width: 33%;
+	height: 321px;
+}
+.popular .box{
+	text-align: center;
+	display: block;
+	width: 100%;
+}
+.popular .layer:nth-child(1){
+	background-image: url('../images/bl21.png');
+}
+
+.popular .layer:nth-child(2) {
+	background-image: url('../images/dino.png');
+}
+
+.popular .layer:nth-child(3){
+	background-image: url('../images/duck.png');
+}
+
+.popular p {
+	font-size: 25px;
+	font-weight: 400;
+	display: inline-block;
+	margin-top: 130px;
+	line-height: 13px;
+}
+.popular span{
+	font-size: 23px;
+	font-weight: 100;
+	display: block;
+}
+
+.look{
+	width: 159px;
+	height: 86px;
+	margin: 7% 26% 0;
+}
+
+.popular .new-button{
+	background-color: ##fff191;
+}
+
+
+.play{
+	background-color: #91e6ff;
+}
+
+.play-headline{
+	padding: 31px 0;
+}
+
+.play .container{
+	display: block;
+}
+
+.play .layer{
+	width: 33%;
+	height: 321px;
+	background-color: #fff;
+}
+.play .box{
+	display: inline-block;
+	font-size: 17px;
+	background-size: cover;
+	height: 100%;
+	margin:0 auto;
+}
+
+.play .layer:nth-child(1){
+	background-image: url(../images/stick.png);
+	background-size: 300px auto;
+	background-position: center;
+}
+
+.play .layer:nth-child(2){
+	background-image: url(../images/octopus.png);
+}
+
+.play .layer:nth-child(3){
+	background-image: url(../images/play-game.png);
+}
+
+.sub-box{
+	width: 80%;
+	height: 40%;
+	margin: 0 auto;
+}
+
+.sub-box:hover{
+	opacity: 1;
+ 	z-index: 1;
+ 	transition-duration:.2s;
+}
+
+
+.play p{
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.play-button{
+	margin: 80px 65px 0;
+	width: 200px;
+	height: 65px;
+	border-radius: 10px;
+	border: 3px solid #101113;
+	background-color: #c2f1ff;
+	font-size: 25px;
+	border-bottom:8px solid black;
+	box-shadow:0px 5px 3px -3px rgba(50, 50, 50, 0.3);
+}
+
+.footer{
+	margin-top: 120px;
+}
+
+.footer ul{
+	width: 1024px;
+	display: flex;
+	justify-content: space-between;
+	font-size: 20px;
+	padding: 0 10px;
+	margin: auto;
+	vertical-align: middle;
+	padding-top: 0;
+}
+
+
+.footer li{
+	margin-top: 10px;
+}
+
+.wrap{
+	background-image: url(../images/bg-body.png);
+	background-size: contain;
+}
+
+.mail{
+	margin-top: 2px;
+}
+
+.button-up{
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	bottom: 50px;
+	left: 3%;
+	text-align: center;
+	line-height: 50px;
+	opacity: 0.5;
+}
+.button-up:hover{
+	opacity: 1;
+	transition-duration: .2s;
+}
+
+
