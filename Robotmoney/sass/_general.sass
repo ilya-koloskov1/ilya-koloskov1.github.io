@@ -1,0 +1,283 @@
+a
+    color: #ffffff
+    
+a:hover
+    text-decoration: none
+    transition-duration: 0.4s
+    color: $yellow_color
+
+.btn
+    color: #ffffff
+
+.header
+    background-image: url(../img/header.jpg) 
+    background-position: center center
+    background-size: cover
+    height: 750px
+    &_sm
+        display: none
+    &_quest
+        background-image: url(../img/quest.png) 
+        background-position: center center
+        background-size: cover
+        height: 392px
+    
+    &_documents
+        background-image: url(../img/documents.png) 
+        background-position: center center
+        background-size: cover
+        height: 392px
+    
+    &_contacts
+        background-image: url(../img/office.png) 
+        background-position: center center
+        background-size: cover
+        height: 392px
+    
+    
+.menu
+    margin: 52px auto
+    align-items: center
+    display: flex
+    &_logo
+        display: flex
+        align-items: center
+        &_one
+        &_two
+            font-size: 24px
+    &_ul
+        display: flex
+        justify-content: space-between
+        align-items: center
+    &_item
+        list-style-type: none
+    &_btn
+        border-radius: 7px
+        height: 40px
+        margin-left: auto
+    
+
+.hamburger
+    display: none
+
+.subheader
+    margin-top: 30px 
+    hr
+        width: 100%
+        margin: 0 -15px
+    &_font
+        margin-top: 30px
+        width: auto
+        &_h4
+            margin-top: 20px
+    &_calc
+        background-color: #ffffff
+        border-radius: 20px
+    &_btn   
+        width: 100%
+
+.condition
+    &_h2
+        margin: 70px
+.details
+	font-size: 1.5rem
+	width: 100%
+	border-bottom: 1px solid #CDCDCD
+	position: relative
+    margin-top: 20px
+	&:hover 
+		cursor: pointer
+
+.summary
+	&:focus 
+		outline: none
+	&:hover  
+		opacity: 1
+	&_chevron-up svg 
+		opacity: 0.5
+	&_chevron-down 
+		pointer-events: none
+		position: absolute
+		top: 0.75em
+		background: #ffffff
+	svg 
+		display: block
+		
+.summary::-webkit-details-marker 
+	display: none
+	
+.range-handle
+    background-color: #FFBE18
+.range-quantity
+    background-color: #FFBE18
+
+.promo
+    margin: 0 auto
+    &_headline
+        margin-top: 120px
+    &_blocks
+        justify-content-space-around
+        &_block 
+            padding: 10px
+            cursor: pointer
+            border-radius: 20px
+            &_img 
+                position: relative
+                margin: 0 auto
+            &:hover 
+                box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1)
+                transition-duration: 0.2s
+            &_h2
+                position: absolute
+                font-size: 40px
+                margin-left: 30px
+                left: 78%
+                top: 66%
+                
+
+.chose
+    margin: 0 auto 
+    height: 600px
+    &_headline  
+        margin-top: 90px
+    &_block
+        display: flex
+        justify-content: space-between
+        &_left
+            &_font
+                color: $grey_color
+                text-align: justify
+        &_right
+
+            &_article
+                
+                &_block
+                    cursor: pointer
+                    padding: 10px
+                    margin: 5px
+                    border-radius: 20px
+                    &:hover 
+                        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1)
+                        transition-duration: 0.2s
+                    h6
+                        color: $grey_color
+
+.decline
+    &_block
+        color: #ffffff
+        height: 355px
+        background: #3F3D56
+        border: 1px solid black
+        border-radius: 20px
+        &_left
+            padding: 55px 0px 0px 80px
+        &_wrap
+            margin: 40px 0px 0 20px
+        &_li
+            margin-top: 18px
+            font-size: 24px
+        &_ul 
+            padding: 0
+        &_right 
+            margin: auto 0
+
+.recommendation
+    &_headline
+        margin-top: 130px
+    &_ul
+        padding: 0
+        margin-left: 20px
+    &_li
+        margin-top: 18px
+        font-size: 24px
+    &_wrap
+        margin-top: 40px
+    &_btn
+        text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1)
+        font-size: 24px
+
+.dept
+    margin-top: 130px
+    &_block
+        color: #ffffff
+        height: 355px
+        background: #3F3D56
+        border: 1px solid black
+        border-radius: 20px
+        &_left
+            padding: 55px 0px 0px 80px
+        &_wrap
+            margin: 40px 0px 0 20px
+        &_li
+            margin-top: 18px
+            font-size: 24px
+        &_ul 
+            padding: 0
+        &_right 
+            margin: auto 0
+    &_btn   
+        width: 55%
+        text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1)
+        font-size: 24px
+
+.partners
+    display: flex
+    justify-content: space-around
+    margin-top: 130px
+    &_logo
+        padding: 0
+        &_img
+            padding: 0
+
+.hr
+    border: none;
+    height: 2px;
+    color: #DCDDE0; 
+    background-color: #DCDDE0
+    margin: 0
+    &_quest
+        margin: auto 0 
+
+.footer
+    margin: 20px auto
+    align-items: center
+    display: flex
+    padding: 20px 0
+    &_logo
+        display: flex
+        align-items: center
+        &_one
+        &_two
+    &_ul
+        display: flex
+        justify-content: space-between
+        align-items: center
+    &_item
+        list-style-type: none
+        color: #4A4A4A
+    &_btn
+        border-radius: 7px
+        height: 40px
+    &_link
+        color: #4A4A4A
+    &_cookie
+        background: #F2F2F4
+        padding: 20px
+        &_span
+            font-size: 12.5px
+
+.footer
+    &_sm
+        display: none
+
+.general
+    display: flex
+    flex-direction: column
+    &_block
+        margin: 20px 0
+        display: flex
+
+.office
+    &_blocks
+        display: flex
+        justify-content: space-between
