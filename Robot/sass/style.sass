@@ -1,0 +1,141 @@
+$yellow_color: #FFBE18
+$white_color: #ffffff
+$grey_color: #4A4A4A
+@mixin btn
+    width: 220px
+    height: 54px
+    color: $white_color
+    font-weight: 600 
+a
+    color: #ffffff
+
+a:hover
+    text-decoration: none
+    transition-duration: 0.4s
+    color: $yellow_color
+
+.header 
+    height: 785px
+    background: url(../img/header.jpg) center center/cover no-repeat
+    &_nav
+        padding-top: 59px
+        color: $white_color
+    &-logo_1
+        margin-right: 5px
+    &_logo_2
+        margin-right: 75px
+    &_logo_h4
+        margin: -36px 0 0 64px 
+    &_btn
+        @include btn  
+
+.subheader
+    color: $white_color
+    .subheader_span
+        margin-top: 130px
+    &_head
+        
+    &_p
+        color: $yellow_color
+    &_calc
+        margin-top: 80px
+        width: 420px
+        height: 500px
+        background-color: $white_color
+        color: black
+        border-radius: 20px
+        padding: 36px 38px
+        position: relative
+        &_summ
+            margin-bottom: 35px
+            &_h4
+                color: $grey_color
+                font-size: 24px
+                margin-top: 8px
+                font-weight: 300
+            &_num
+                font-size: 30px
+                margin: 0 10px 0 0
+                font-weight: 600
+        &_range_summ, &_range_time
+            width: 100%
+            .range-quantity
+                background-color: $yellow_color
+        &_time
+            margin: 35px 0
+            &_h4
+                color: $grey_color
+                font-size: 24px
+                margin-top: 8px
+                font-weight: 300
+            &_num
+                font-size: 30px
+                margin: 0 10px 0 0
+                font-weight: 600
+        &_btn
+            @include btn
+            margin-top: 44px
+            width: 100%
+            font-size: 24px
+        &_return
+            margin-top: 20px
+            &_date
+                margin-top: 8px
+                font-weight: 300
+                color: $grey_color
+                &_strong
+                    color: black
+            &_num
+                font-size: 24px
+        &_overpayment
+            margin-top: 17px
+            color: $grey_color
+            &_pay
+                font-weight: 300
+            &_false
+            
+            &_num
+                color: black
+        &_border
+            margin-top: 10px
+            width: 100%
+            border: 0.5px solid $grey_color
+            position: absolute
+            right: 0px
+        &_footer
+            margin-top: 25px
+            color: $grey_color
+            &_time
+                margin-top: -5px 
+                color: black
+                font-size: 24px
+.section
+    &_headline
+        padding-top: 140px
+    &_block
+
+        &_step
+            border-radius: 20px
+            width: 100%
+            margin: 50px 10px
+            cursor: pointer
+            &_img
+                color: $yellow_color
+                &_two
+                    margin-top: 19px
+                    color: $yellow_color
+                &_three
+                    margin-top: 14px
+                    color: $yellow_color
+            &_h2
+                font-size: 50px
+            &_h3
+                &_block-h3
+                    font-weight: 400
+                font-weight: 
+                margin-top: 60px
+                font-weight: 100
+            &_info
+                margin: 30px auto
+                width: 250px
+                font-weight: 200

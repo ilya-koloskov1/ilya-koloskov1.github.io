@@ -1,0 +1,38 @@
+a
+    color: #ffffff
+
+a:hover
+    text-decoration: none
+    transition-duration: 0.4s
+    color:#FFBE18
+
+.header 
+    height: 785px
+    background: url(../img/header.jpg) center center/cover no-repeat
+    &_nav
+        padding-top: 59px
+        color: #ffffff
+    &_logo_2
+        margin-right: 80px
+    &_logo_h4
+        margin: -36px 0 0 64px 
+    &_btn
+        width: 220px
+        height: 54px
+        color: #ffff
+        font-weight: 600    
+
+.subheader
+    color: #ffff
+    .subheader_span
+        margin-top: 130px
+    &_p
+        color:#FFBE18
+    &_range
+        margin-top: 80px
+        width: 420px
+        height: 500px
+        background-color: #ffff
+        color: black
+        &_h4
+            color: #4A4A4A
