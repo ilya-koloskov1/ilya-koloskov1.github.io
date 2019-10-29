@@ -1,0 +1,514 @@
+@media (max-width: 1200px)
+    .header
+        height: 700px
+        width: 100%
+        
+    .menu
+        &_btn
+            font-size: 14px
+    .subheader
+        justify-content: space-between
+        &_font
+            margin-top: 20px
+            &_h1
+                margin-top: 30px
+                
+    .decline
+        &_block
+            &_li
+                font-size: 21px
+    .dept
+        &_block
+            &_left
+                padding: 50px 0 0 40px 
+                
+    .footer
+        &_phone
+            font-size: 27px  
+    .chose
+        &_h3    
+            font-size: 24px
+        &_block 
+            display: flex
+            justify-content: space-between
+            &_left
+                &_font
+                  font-size: 22px
+                  text-align: justify
+            &_right
+                &_h6
+                    font-size: 14px
+    .recommendation
+        &_headline
+            font-size: 24px
+            &_block
+        &_li
+            font-size: 21px
+            padding: 10px 0
+        &_img
+            width: 100%
+        &_btn
+            font-size: 21px
+            margin-top: 5px
+    .dept 
+        &_block
+            &_left
+                padding: 65px 0 0 40px;
+                &_wrap
+                font-size: 21px
+        &_btn
+            font-size: 21px
+    
+
+@media (max-width: 991px)
+    /**/
+    br
+        display: none
+    .header
+    .menu
+        &_btn
+            font-size: 10px
+        &_ul
+            font-size: 12px
+            padding: 0
+    .subheader
+        margin: 0
+        display: flex
+        justify-content: space-between
+        &_font
+            margin-top: 30px
+        padding: 0 
+        &_calc
+            margin-left: auto
+            &_head
+                &_summ
+                    &_text
+                        font-size: 17px
+                    &_numb
+                        font-size: 20px
+                &_overtime
+                    &_numb  
+                        font-size: 20px 
+        &_quest
+            text-align: center 
+            
+    .promo
+        &_headline
+            &_h2
+                font-size: 24px
+        &_blocks
+            &_block
+                
+                
+    .chose
+        &_h3
+            font-size: 17px
+        &_block 
+            display: flex
+            justify-content: space-between
+            &_left
+                &_font
+                    font-size: 17px
+    .decline
+        &_block
+            display: flex
+            justufy-content: space-around
+            &_li
+                font-size: 14px
+            &_h3
+                font-size: 24px
+            &_img
+                width: 100%
+    .recommendation
+        &_headline
+            &_h2
+                font-size: 24px
+        &_block
+            &_right
+                &_h3
+                    font-size: 17px
+        &_li
+            padding: 0
+            font-size: 14px
+        &_img
+            width: 100%
+        &_btn
+            font-size: 14px
+            margin: 20px 0
+    .dept 
+        &_block
+            &_left
+                padding: 65px 0 0 40px;
+                &_h3    
+                    font-size: 23px
+            &_wrap
+                font-size: 16px
+            &_right
+                &_img
+                    width: 100%
+        &_btn
+            font-size: 14px
+
+    .footer
+        font-size: 12px
+        padding: 0
+        &_phone
+            font-size: 15px
+        &_time
+            font-size: 13px
+
+    .general
+
+        &_block
+            &_h3
+                font-size: 18px
+    .office
+        &_h3    
+            font-size: 20px
+        &_h5
+            font-size: 18px
+            
+
+
+@media (max-width: 767px)
+    /**/
+    .header
+        height: 850px
+        
+        &_sm
+            align-items: center
+            display: flex
+            margin-top: 10px
+    .menu
+        padding: 10vh 0
+        display: flex
+        flex-direction: column
+        align-items: center
+        position: fixed
+        top: 0 
+        right: -100%
+        width: 40%
+        height: 100vh
+        margin: 0
+        background-color: rgba(0,0,0, .8)
+        z-index: 1
+        -webkit-box-orient: vertical
+        -webkit-box-direction: normal
+        &_active
+            left: 0
+            -webkit-transition: 0.6s all
+            transition: 0.6s all
+        &:active
+            -webkit-transition: 0.6s all
+            transition-duration: 0.6s all
+        &_nav
+            padding: 0
+        &_ul
+            text-align: center
+            flex-direction: column
+            margin: 0
+            padding: 10px 0
+        &_item  
+            margin: 10px 0
+            font-size: 
+        &_link
+            font-size: 17px
+        &_btn
+            display: none
+        &_logo
+            &_one   
+                display: none
+    .hamburger
+        display: block
+        position: relative
+        width: 10%
+        cursor: pointer
+        height:  60%
+        span
+            display: block
+            height: 2px
+            width: 100%
+            background-color: #ffffff
+            margin-bottom: 8px
+            cursor: pointer
+            transition: 0.3s
+        &_active
+            span
+                margin-bottom: -2px
+                &:nth-child(1)
+                    transform: translateY(3px) rotate(-45deg)
+                &:nth-child(2)
+                    display: none
+                &:nth-child(3)
+                    transform: translateY(3px) rotate(45deg)  
+    .subheader
+        flex-direction: column
+        &_font
+            &_h1
+                margin-top: 90px
+        &_calc
+            margin-top: 30px
+            &_head
+                &_summ
+                    &_text
+                        
+                    &_numb
+        
+        
+                        
+
+    .promo
+        &_blocks
+            flex-direction: column
+            margin: 50px 0
+            &_block
+                flex-direction: column
+                &_font
+                    font-size: 14px
+                &_img
+                    flex-direction: column
+                    position: static
+                    margin: 0 auto
+                    &_images
+                        margin: 0 auto
+                &_h2
+                    padding: 0 
+                    position: static
+                    margin: 0 auto
+            &_h3
+                font-size: 23px
+            
+                    
+    .chose
+        &_block
+            display: flex
+            flex-direction: column
+            &_right
+                margin-top: 20px
+            &_left
+                font-size: 20px
+    
+    .recommendation
+        &_headline
+            font-size: 24px
+        &_block
+            &_left
+                padding: -30px 0 0 0 
+        &_li
+            font-size: 14px
+    
+    .decline    
+        &_block  
+            height: 290px
+            margin-top: 200px
+            &_h3
+                font-size: 18px
+            &_right
+                display: none
+                padding: 0
+    
+    .recommendation
+        padding: 0
+        &_headline
+            margin: 50px 0 
+        &_wrap
+            padding-left: 35px
+        &_block
+            &_right
+                &_h3
+                    font-weight: bold
+                    padding-left: 40px
+            &_left
+                display: none
+                padding: 70px 0 0 30px
+        &_btn
+            margin: 5% 15%
+            width: 65%
+    
+    .dept
+        margin: 50px 0
+        &_block
+            height: 315px
+            &_left
+                padding: 60px
+                &_h3
+                    font-size: 17px
+            &_right
+                display: none
+        &_btn
+            margin: 0 17%
+            width: 70%
+
+    .partners
+        height: 400px
+        margin-top: 80px
+        &_h3
+            margin-bottom: 50px
+        &_logo
+            height: 100px
+        &_logo
+            flex-direction: column
+            &_img
+                margin-top: 15px
+
+    .footer
+        display: none
+
+    .footer_sm
+        display: block
+        margin: 20px 0
+        padding-bottom: 5px
+        &_num
+            margin-bottom: 10px
+            font-size: 30px
+        &_btn
+            width: 50%
+            margin: 20px 25%
+
+    .office
+        &_blocks
+            display: flex
+            flex-direction: column
+
+    .general
+        &_block
+            margin: 20px 0
+            &_h3
+                font-size: 16px
+                margin: auto 0
+
+
+@media (max-width: 576px)
+    .header
+        height: 383px
+        &_sm
+        
+    .hamburger
+        
+    .subheader
+        &_quest
+            margin: auto 0 
+        &_font
+            margin: 2%
+            width: auto
+            &_h1
+            &_h4
+                margin-top: 15px 
+        &_calc
+            border-radius: 0
+            margin: 0
+            margin-top: 100px
+    
+    .chose
+        &_block
+            &_right
+                &_article
+                    flex-direction: column
+    .promo
+        margin-top: 530px
+        &_blocks
+            &_block
+                &_img
+                    &_images
+                &_h2
+                    
+    .chose
+        margin-top: -100px
+    .decline
+        margin-top: 700px
+        height: 300px
+        &_block
+            height: 330px
+            border-radius: 0px
+            &_wrap
+                margin: 0
+            &_h3
+                font-size: 23px
+            &_left
+                padding: 9% 0 0 10%
+            &_ul
+                list-style-position: inside
+            &_li
+                font-size: 18px
+                
+    .recommendation
+        position: relative
+        top: 230px
+        &_block
+            &_right
+                margin: 0
+                padding: 0
+        &_wrap
+            padding: 0
+        &_headline
+            margin: 0
+            &_h2
+                margin-top: 30px
+        &_ul
+            list-style-position: inside
+        &_li
+            font-size: 18px
+        &_btn
+            font-size: 24px
+            margin: 0
+            margin-left: 20px
+            margin-top: 20px
+            width: 94%
+    
+    .dept
+        &_block
+            height: 330px
+            border-radius: 0
+            padding: 5% 0 0 4%
+            &_left
+                margin: 32px
+                padding: 0
+                &_h3
+                    font-size: 23px
+            &_wrap
+                font-size: 18px
+                margin: 0 auto
+        &_btn
+            margin: 0
+            width: 100%
+            font-size: 24px
+    .footer
+        &_sm
+            padding-bottom: 5px
+            &_btn
+                font-size: 18px
+                
+    .condition
+        &_h2
+            margin: 40px 0
+            font-size: 23px
+    .details
+        width: 75%
+        margin: 0 auto
+        font-size: 15px
+
+    .footer
+        &_sm    
+            &_num
+                font-size: 20px
+
+@media (max-width: 374px)
+    /**/
+    .subheader
+        flex-direction: column
+        &_font
+            &_h1
+                margin-top: 60px
+        &_calc
+            margin-top: 30px
+            &_head
+                &_summ
+                    &_text
+                        
+                    &_numb
+        
+    .general
+        &_block
+            &_h3
+                font-size: 14px
+                font-weight: 300
